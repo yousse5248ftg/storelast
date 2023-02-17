@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-image: url(./صور/download.jpeg);
+  background-size: cover;
+  color: black;
+}
+/*-------------*/
+h1,h2,h3{
+  text-align: center;
+  font-size: 8rem;
+  margin-top: 3rem;
+  background-color: aqua;
+  border: solid black 3rem;
+}
+p{
+  font-size: 4rem;
+  margin: 3rem;
+  background-color: gold;
+  border: solid gray 2rem;
+  text-align: center;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: orangered;
+    padding: 15px 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    border-radius: 3%;
+}
+a:hover {
+    background-color: orange;
+    transform: scale(1.1);
+}
+/*IMGE_STAYEL*/
+.img-container {
+  width: 440px;
+  margin-left: 3rem;
+ 
+  background-color: #08081d;
+   border-radius: 10px;
+   border: 5px groove;
+}
+.img-container p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+img {
+    display: block;
+  width: 400px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
